@@ -2,7 +2,7 @@
 <html lang="en">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <head>
-        <title>Gibsol's Portfolio</title>
+        <title>Gibsol's Page</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"; charset="utf-8"/>
         <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
         <meta name="description" content="My Portfolio"/>
@@ -11,17 +11,47 @@
             body {
                 background-color: #ffffff;
                 color: #000000;
-                padding: 25px;
+                padding: 20px;
                 font: status-bar;
                 font-size: 20px;
                 text-align: center;
             }
             .dark-mode {
                 background-color: #202124;
-                color: white;
+                color: #ffffff;
             }
-            address:hover {
-                color: #6bbaff;
+            button{
+                border: none;
+                background: none;
+            }
+            button:hover {
+                border: none;
+                background: none;
+                color: #bababa;
+            }
+            /* awesome icons styling */
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 35px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+            .fa:hover {
+                opacity: 0.7;
+            }
+            .fa-github {
+                background-color: #171b21;
+                color: #f1f6fb;
+            }
+            .fa-reddit {
+                background: #eb5528;
+                color: #ffffff;
+            }
+            .fa-soundcloud {
+                background:#000000;
+                color:#ffffff;
             }
         </style>
     </head>
@@ -44,6 +74,7 @@
         <p>
             I have some C++, Python, Git and Vim skills.
             <br>I'm also a huge Linux fan and I know some Bash scripting language.
+            <br>You can learn more about my skills and my projects on my Github page.
         </p>
 
         <h2>About me:</h2>
@@ -52,12 +83,9 @@
             <br>I like listening to rock music, learning human languages, playing guitar, reading books and running.
         </p>
         <h2>Links:</h2>
-        <a href="https://github.com/gibsol">
-            <button type="button">Github</button>
-        </a>
+        <a href="https://github.com/gibsol" class="fa fa-github"></a>
+        <a href="https://reddit.com/u/gibsol" class="fa fa-reddit"></a>
+        <a href="https://soundcloud.com/gibsol" class="fa fa-soundcloud"></a>
 
-        <a href="https://www.reddit.com/user/Gibsol/">
-            <br><button type="button">Reddit</button>
-        </a>
     </body>
 </html>
