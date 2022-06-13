@@ -1,4 +1,4 @@
-# My Portfolio 
+# My homepage 
 A simple "homepage" that I made to learn some HTML/CSS
 
 # License
