@@ -1,5 +1,7 @@
 # My homepage 
-A simple "homepage" that I made to learn some HTML/CSS
+A light homepage made in HTML/CSS
+
+![Website]()
 
 # License
 GNU General Public License v3.0.
