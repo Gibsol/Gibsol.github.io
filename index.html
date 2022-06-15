@@ -20,7 +20,23 @@
                 background-color: #202124;
                 color: #ffffff;
             }
-            button{
+            div.fixed {
+                position: fixed;
+                width: 96%;
+                bottom: 10px;
+            } 
+            address {
+                font-size: 12px;
+                color: rgb(129, 136, 144);
+                display: inline;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                opacity: 0.7;
+            }
+            button {
                 border: none;
                 background: none;
             }
@@ -37,6 +53,12 @@
                 text-align: center;
                 text-decoration: none;
                 border-radius: 50%;
+            }
+            .fa-moon-o {
+                font-size: 25px;
+                position: fixed;
+                width: 95%;
+                bottom: 10px;
             }
             .fa:hover {
                 opacity: 0.7;
@@ -56,15 +78,15 @@
         </style>
     </head>
     <body> 
-        <div style="position:absolute ; top: 15px; left: 15px;"; id="dark button";>
+        <div id="dark-button">
             <button onclick="darkMode()"><i class="fa fa-moon-o"></i></button>
-        </div>
             <script>
                 function darkMode() {
                     var element = document.body;
                     element.classList.toggle("dark-mode");
                 }
             </script>
+        </div>
 
         <h1>Welcome to Gibsol's page!</h1>
 
@@ -86,6 +108,13 @@
         <a href="https://github.com/gibsol" class="fa fa-github"></a>
         <a href="https://reddit.com/u/gibsol" class="fa fa-reddit"></a>
         <a href="https://soundcloud.com/gibsol" class="fa fa-soundcloud"></a>
+
+        <div class="fixed">
+            <address>This page on Github: </address>
+            <a href="https://github.com/gibsol/Gibsol.github.io">
+                <address>https://github.com/gibsol/Gibsol.github.io</address>
+            </a>
+        </div>
 
     </body>
 </html>
