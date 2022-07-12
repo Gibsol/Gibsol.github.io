@@ -20,12 +20,6 @@ body {
     color: #ffffff;
 }
 
-div.bottom {
-    position: fixed;
-    width: 96%;
-    bottom: 10px;
-} 
-
 address {
     font-size: 10px;
     color: rgb(129, 136, 144);
